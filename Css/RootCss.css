@@ -2,9 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
 
+}
+body{
+    background: var(--background);
+    color: var(--foreground);
+}
 :root{
-    
+    --clr-light: #f6f4f2;
+    --clr-dark: #202124;
+    --gold-color: #a48936;
+    --MainFont: 'Roboto', sans-serif;;
+    --TitleFont :'Bowlby One SC', cursive;
+
+    --foreground : var(--clr-light);
+    --background : var(--clr-dark);
+}
+.darkMode{
+
+    --clr-light: white;
+    --clr-dark: #202124;
+    --gold-color: #a48936;
+    --MainFont: 'Roboto', sans-serif;;
+    --TitleFont :'Bowlby One SC', cursive;
+
+    --foreground : var(--clr-dark);
+    --background : var(--clr-light);
 
 }
