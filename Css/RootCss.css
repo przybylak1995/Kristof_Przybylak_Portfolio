@@ -30,3 +30,9 @@ body{
     --background : var(--clr-light);
 
 }
+.pa-10{
+    padding: 10px;
+}
+.icon{
+    width: 20%;
+}
