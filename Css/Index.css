@@ -38,7 +38,6 @@
     align-items: center;
 }
 .menu_items_container{
-
     margin-top: 20px;
     width: 100%;
     right: 0;
@@ -67,3 +66,21 @@
     color: var(--clr-dark);
     font-family: var(--MainFont);
 }
+
+/*Introduction Area */
+
+.introduction_container{
+    padding-top: 15%;
+}
+.span_name{
+
+}
+span{
+    color: #f6f4f2;
+}
+
+
+
+
+
+
