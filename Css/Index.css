@@ -32,7 +32,7 @@
 
 /*Mobile Navbar*/
 .navbar_mobile{
-    border-bottom: 1px solid var(--clr-light);
+    border-bottom: 1px solid #33353a;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,9 +49,9 @@
     position: fixed;
 }
 .mobile_list_items{
-    border-top: 2px solid var(--gold-color);
-    border-bottom: 2px solid var(--gold-color);
-    border-left: 2px solid var(--gold-color);
+    border-top: 1px solid var(--gold-color);
+    border-bottom: 1px solid var(--gold-color);
+    border-left: 1px solid var(--gold-color);
     color: black;
     background: var(--clr-light);
     width: 0;
