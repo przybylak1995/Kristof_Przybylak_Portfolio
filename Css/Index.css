@@ -38,6 +38,7 @@
     align-items: center;
 }
 .menu_items_container{
+
     margin-top: 20px;
     width: 100%;
     right: 0;
@@ -48,6 +49,9 @@
     position: fixed;
 }
 .mobile_list_items{
+    border-top: 1px solid var(--gold-color);
+    border-bottom: 1px solid var(--gold-color);
+    border-left: 1px solid var(--gold-color);
     color: black;
     background: var(--clr-light);
     width: 0;
