@@ -37,6 +37,7 @@
     align-items: center;
 }
 .menu_items_container{
+
     left: 50%;
     padding: 10px;
     width: 50%;
@@ -45,7 +46,11 @@
     align-items: center;
     height: 80%;
     position: absolute;
+    animation-name: openbar;
+    animation-duration: 5s;
 }
+
+
 .mobile-list-item{
     margin: 10px 0;
     padding: 8px 10px;

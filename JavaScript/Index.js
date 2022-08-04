@@ -29,19 +29,24 @@ function ModeSwitch ()
 }*/
  function MenuToggle()
  {
+     let menuItemsContainer = document.querySelector(".menu_items_container");
      let hamburgerIcon = document.getElementById("hamburger_icon");
      let menuToggle = document.getElementById("menu_toggle");
      menuToggle.style.display = "none";
+
      hamburgerIcon.addEventListener("click",() =>
      {
 
          if (menuToggle.style.display === "none")
          {
+
              menuToggle.style.display = "flex";
          }
          else if (menuToggle.style.display === "flex")
          {
-             menuToggle.style.display = "none";
+
+
+            menuToggle.style.display = "none";
          }
      })
  }
