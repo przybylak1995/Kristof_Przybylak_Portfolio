@@ -29,19 +29,21 @@ function ModeSwitch ()
 }*/
  function MenuToggle()
  {
+     let mobileListItems = document.querySelector(".mobile_list_items");
+     mobileListItems.style.width = "0";
      let hamburgerIcon = document.getElementById("hamburger_icon");
-     let menuToggle = document.getElementById("menu_toggle");
-     menuToggle.style.display = "none";
      hamburgerIcon.addEventListener("click",() =>
      {
 
-         if (menuToggle.style.display === "none")
+
+         if (mobileListItems.style.width === "0px")
          {
-             menuToggle.style.display = "flex";
+             mobileListItems.style.width = "60%"
          }
-         else if (menuToggle.style.display === "flex")
+         else if (mobileListItems.style.width === "60%")
          {
-             menuToggle.style.display = "none";
+             mobileListItems.style.width = "0px";
          }
+
      })
  }

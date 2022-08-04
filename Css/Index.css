@@ -1,3 +1,4 @@
+
 /*Hamburger Menu */
 .hamburger_icon {
     display: inline-block;
@@ -37,21 +38,28 @@
     align-items: center;
 }
 .menu_items_container{
-    left: 50%;
-    padding: 10px;
-    width: 50%;
+    margin-top: 20px;
+    width: 100%;
+    right: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     height: 80%;
-    position: absolute;
+    position: fixed;
 }
+.mobile_list_items{
+    color: black;
+    background: var(--clr-light);
+    width: 0;
+    transition: 0.5s;
+}
+
 .mobile-list-item{
     margin: 10px 0;
-    padding: 8px 10px;
+    padding: 10px 20px;
 }
 .mobile-list-item a{
     font-size: 2rem;
-    color: var(--clr-light);
+    color: var(--clr-dark);
     font-family: var(--MainFont);
 }
