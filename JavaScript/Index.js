@@ -11,6 +11,8 @@ function myFunction(x) {
 
 
 
+
+
 function ModeSwitch ()
 {
 
@@ -53,7 +55,27 @@ function ModeSwitch ()
 
 
 
+ /*
+function Writer()
+{
+    let span = document.getElementById("typewriter");
+    let text = ["Hallo ik ben kristof", "Hallo ik ben mirre"];
+    let tekst = 0;
+    let i = 0;
+    write();
+   function write ()
+   {
 
+
+       if (i < text[tekst].length)
+       {
+           span.innerHTML+= text[0].charAt(i);
+           i++;
+           setTimeout(write, 50);
+       }
+   }
+}
+*/
 
 
 
