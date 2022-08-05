@@ -20,11 +20,12 @@ body{
 }
 .darkMode{
 
-    --clr-light: white;
-    --clr-dark: #303236;
+    --clr-light: #f6f4f2;
+    --clr-dark: #120e16;
     --gold-color: #a48936;
-    --MainFont: 'Roboto', sans-serif;;
+    --SecFont: 'Roboto', sans-serif;;
     --TitleFont :'Bowlby One SC', cursive;
+    --MainFont : 'Inconsolata', monospace;
 
     --foreground : var(--clr-dark);
     --background : var(--clr-light);

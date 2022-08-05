@@ -1,4 +1,4 @@
-
+ModeSwitch();
 MenuToggle();
 function myFunction(x) {
     x.classList.toggle("change");
@@ -10,10 +10,10 @@ function myFunction(x) {
 
 
 
-/*
+
 function ModeSwitch ()
 {
-    let btnToggel = document.getElementById("press");
+    let btnToggel = document.getElementById("dark_light");
     btnToggel.addEventListener("click", () =>
     {
         if(document.body.classList.contains("darkMode"))
@@ -26,7 +26,7 @@ function ModeSwitch ()
         }
 
     })
-}*/
+}
  function MenuToggle()
  {
      let mobileListItems = document.querySelector(".mobile_list_items");
