@@ -67,10 +67,11 @@
 }
 #dark_light{
     width: 20%;
+    color: red;
 }
 .dark_light{
     display: flex;
-    background: var(--clr-dark);
+    background: var(--background);
 }
 /*Introduction Area */
 

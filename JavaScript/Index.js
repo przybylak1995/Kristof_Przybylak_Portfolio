@@ -13,15 +13,18 @@ function myFunction(x) {
 
 function ModeSwitch ()
 {
+
     let btnToggel = document.getElementById("dark_light");
     btnToggel.addEventListener("click", () =>
     {
         if(document.body.classList.contains("darkMode"))
         {
+            btnToggel.src = "Images/light.png";
             document.body.classList.remove("darkMode");
         }
         else
         {
+            btnToggel.src = "Images/dark.png";
             document.body.classList.add("darkMode");
         }
 
