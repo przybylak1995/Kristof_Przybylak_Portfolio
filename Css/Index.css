@@ -118,11 +118,27 @@ span{
 
 .row{
     margin-top: 30px;
+
+
 }
 .svg_icons{
     color: var(--foreground);
+    margin: 0 8px;
+    cursor: pointer;
 }
 .gold{
     color: var(--gold-color);
 }
 
+
+.btn_connect{
+    margin-top: 15px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    background: transparent;
+    color: var(--foreground);
+    height: 45px;
+    border: 2px solid var(--gold-color);
+
+}
