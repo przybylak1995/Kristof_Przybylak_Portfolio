@@ -39,7 +39,7 @@
 }
 .menu_items_container{
     margin-top: 20px;
-    width: 100%;
+
     right: 0;
     display: flex;
     flex-direction: column;
@@ -76,13 +76,13 @@
 /*Introduction Area */
 
 .introduction_container{
-    padding-top: 15%;
+    padding: 15% 0 0 10px;
 }
 .span_name{
-
+    font-size: 2.8rem;
 }
 span{
-    color: #f6f4f2;
+    color: var(--foreground);
 }
 
 .cursor{
@@ -90,16 +90,14 @@ span{
 }
 
 .type_container span {
-    font-size: 2rem;
+    margin-top: 10px;
+    font-size: 1.4rem;
     font-weight: bold;
     letter-spacing: 0.1rem;
     text-align: center;
     overflow: hidden;
 }
-.type_container  span.typed-text {
-    font-weight: normal;
-    color: #7caaf1;
-}
+
 .type_container  span.cursor {
     display: inline-block;
     background-color: var(--gold-color);
@@ -111,13 +109,20 @@ span{
     animation: none;
 }
 @keyframes blink {
-    0%  { background-color: #ccc; }
-    49% { background-color: #ccc; }
+    0%  { background-color: var(--foreground); }
+    49% { background-color: var(--foreground); }
     50% { background-color: transparent; }
     99% { background-color: transparent; }
-    100%  { background-color: #ccc; }
+    100%  { background-color: var(--foreground); }
 }
 
-
-
+.row{
+    margin-top: 30px;
+}
+.svg_icons{
+    color: var(--foreground);
+}
+.gold{
+    color: var(--gold-color);
+}
 
