@@ -145,7 +145,7 @@ span{
 .transform_text{
     z-index: -1;
     opacity: 0.1;
-    top: 45%;
+    top: 50%;
     color: var(--foreground);
     font-size: 5rem;
     position: absolute;
