@@ -34,6 +34,7 @@ html{
 
 /*Mobile Navbar*/
 .navbar_mobile{
+    z-index: 1;
     position: fixed;
     width: 100%;
     border-bottom: 1px solid #33353a;
