@@ -17,6 +17,7 @@ body{
     --MainFont : 'Inconsolata', monospace;
     --foreground : var(--clr-light);
     --background : var(--clr-dark);
+    --backGroundImage : url(/Images/bg.png)
 }
 .darkMode{
 
@@ -26,7 +27,6 @@ body{
     --SecFont: 'Roboto', sans-serif;;
     --TitleFont :'Bowlby One SC', cursive;
     --MainFont : 'Inconsolata', monospace;
-
     --foreground : var(--clr-dark);
     --background : var(--clr-light);
 

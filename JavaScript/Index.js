@@ -15,22 +15,27 @@ function myFunction(x) {
 
 function ModeSwitch ()
 {
+    let btnToggels = document.querySelectorAll(".dark_light");
+    //let btnToggel = document.getElementById("dark_light");
 
-    let btnToggel = document.getElementById("dark_light");
-    btnToggel.addEventListener("click", () =>
-    {
-        if(document.body.classList.contains("darkMode"))
+    for (let i = 0; i < btnToggels.length; i++) {
+        btnToggels[i].addEventListener("click", () =>
         {
-            btnToggel.src = "Images/light.png";
-            document.body.classList.remove("darkMode");
-        }
-        else
-        {
-            btnToggel.src = "Images/dark.png";
-            document.body.classList.add("darkMode");
-        }
 
-    })
+            if(document.body.classList.contains("darkMode"))
+            {
+                btnToggels[i].src = "Images/light.png";
+                document.body.classList.remove("darkMode");
+            }
+            else
+            {
+                btnToggels[i].src = "Images/dark.png";
+                document.body.classList.add("darkMode");
+            }
+
+        })
+    }
+
 }
  function MenuToggle()
  {
@@ -52,7 +57,6 @@ function ModeSwitch ()
 
      })
  }
-SpanOnScroll();
 
 
 

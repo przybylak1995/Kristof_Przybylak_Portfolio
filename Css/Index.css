@@ -1,6 +1,9 @@
 html{
     scroll-behavior: smooth;
 }
+.desktop{
+    display: none;
+}
 /*Hamburger Menu */
 .hamburger_icon {
     display: inline-block;

@@ -1,0 +1,64 @@
+
+
+@media screen and (min-width: 570px )
+{
+    .desktop{
+        display: flex;
+    }
+    .mobile{
+        display: none;
+    }
+    .navbar{
+        padding: 10px 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar_container_right{
+        display: flex;
+        align-items: center;
+    }
+    .list-items{
+        display: flex;
+    }
+    .list-item{
+        margin: 0 10px;
+    }
+    .list-item a{
+        color: var(--foreground);
+        font-family: var(--MainFont);
+        font-size: 1.5rem;
+
+    }
+    .icon{
+
+        margin: 0 10px;
+        width: 5%;
+    }
+    .dark_light{
+        background: none;
+        margin: 0 10px 0 2rem;
+        height: 40px;
+        width: 40px;
+    }
+
+
+    .introduction_container{
+        padding: 5rem 0  0  2rem;
+    }
+    .introduction_container h1{
+        font-size: 3rem;
+    }
+    .span_name{
+        font-size: 4.5rem;
+    }
+    .gold{
+        font-size: 1.5rem;
+    }
+
+
+
+
+
+}
