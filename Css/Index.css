@@ -78,7 +78,7 @@ html{
     width: 20%;
     color: red;
 }
-.dark_light{
+.dark_light_style{
     display: flex;
     background: var(--background);
 }
@@ -133,6 +133,11 @@ span{
     margin-top: 30px;
 
 
+}
+.project_row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .svg_icons{
     color: var(--foreground);
@@ -192,7 +197,7 @@ span{
 }
 .project{
     width: 90%;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 .project_background {
     height: 250px;

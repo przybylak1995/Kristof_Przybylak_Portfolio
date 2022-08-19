@@ -43,12 +43,17 @@
         width: 40px;
     }
 
+    .btn_connect :hover{
+
+        cursor: grab;
+    }
 
     .introduction_container{
-        padding: 5rem 0  0  2rem;
+        padding: 5rem 0  0  5rem;
+
     }
     .introduction_container h1{
-        font-size: 3rem;
+        font-size: 4.5rem;
     }
     .span_name{
         font-size: 4.5rem;
@@ -56,9 +61,51 @@
     .gold{
         font-size: 1.5rem;
     }
+    .introductie_chalkBoard{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
+    .about_container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    #about{
+        font-size: 3rem;
+        width: 70%;
+    }
 
+    .rubi_img{
 
+        width: 35%;
+        height: 35%;
+        margin-right: 15%;
+        margin-top: 5%;
+    }
 
+    .project_row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .projects_container{
+        width: 100%;
 
+    }
+    .project{
+        width: 40%;
+        margin: 1rem;
+    }
+    .tags_links{
+
+    }
+
+}
+
+@media screen and (max-width: 850px){
+    #about{
+        width: 100%;
+    }
 }
