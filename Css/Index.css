@@ -91,9 +91,7 @@ html{
    height: 100vh;
     padding: 30% 0 0 10px;
 }
-.introduction_container h1{
-    font-size: 2rem;
-}
+
 
 span{
     color: var(--foreground);
