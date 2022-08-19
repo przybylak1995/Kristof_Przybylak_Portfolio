@@ -91,13 +91,16 @@ html{
    height: 100vh;
     padding: 30% 0 0 10px;
 }
-.span_name{
-    font-size: 2.8rem;
+.introduction_container h1{
+    font-size: 2rem;
 }
+
 span{
     color: var(--foreground);
 }
-
+.special_a{
+    height: 1.5rem;
+}
 .cursor{
     color: #f6f4f2;
 }

@@ -61,6 +61,9 @@
     .gold{
         font-size: 1.5rem;
     }
+    .special_a{
+        height: 50px;
+    }
     .introductie_chalkBoard{
         display: flex;
         justify-content: space-between;
