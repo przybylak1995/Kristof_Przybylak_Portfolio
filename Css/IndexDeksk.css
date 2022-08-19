@@ -37,6 +37,7 @@
         width: 5%;
     }
     .dark_light{
+        cursor: grab;
         background: none;
         margin: 0 10px 0 2rem;
         height: 40px;
