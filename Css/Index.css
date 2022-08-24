@@ -250,16 +250,16 @@ form{
     width: 100%;
 }
 input , textarea{
-    padding: 5px ;
+    padding: 8px 5px ;
     color: var(--gold-color);
     background: transparent;
     margin: 8px 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     width: 95%;
 }
 #btnSent{
-    margin: 5px 0;
+    margin: 10px 0;
     background: transparent;
     width: 50%;
     color: whitesmoke;
@@ -267,7 +267,7 @@ input , textarea{
 }
 textarea{
     width: 95%;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 
