@@ -247,7 +247,7 @@ form{
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
 }
 input , textarea{
     padding: 5px ;
@@ -256,7 +256,7 @@ input , textarea{
     margin: 8px 0;
     font-size: 2rem;
     text-align: center;
-    width: 90%;
+    width: 95%;
 }
 #btnSent{
     margin: 5px 0;
@@ -266,7 +266,7 @@ input , textarea{
     font-size: 2rem;
 }
 textarea{
-    width: 90%;
+    width: 95%;
     font-size: 2rem;
 }
 
