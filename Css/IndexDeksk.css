@@ -93,13 +93,7 @@
     }
     .btn_connect:hover{
         cursor: pointer;
-        animation: back 2s;
 
-    }
-    @keyframes back {
-        25% {background: #ccc28f; width: 50%}
-        50% {background: #cbbd70; width: 50%}
-        75%{background: #ccb852; width: 50%   ;color: #120e16}
 
     }
     .project_row{
@@ -119,7 +113,21 @@
 
     }
 
+
+    .form_container{
+        margin-top: 20%;
+    }
+    form{
+        width: 40%;
+    }
+
+
 }
+
+
+
+
+
 
 @media screen and (max-width: 850px){
     #about{
