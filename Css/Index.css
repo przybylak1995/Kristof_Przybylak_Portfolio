@@ -41,7 +41,6 @@ html{
     z-index: 1;
     position: fixed;
     width: 100%;
-    border-bottom: 1px solid #33353a;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,7 +88,7 @@ html{
 
 .introduction_container{
    height: 100vh;
-    padding: 30% 0 0 10px;
+    padding: 40% 0 0 10px;
 }
 
 
@@ -151,6 +150,7 @@ span{
 
 
 .btn_connect{
+    font-family: var(--SecFont);
     margin-top: 15px;
     width: 150px;
     border-radius: 10px;
@@ -179,12 +179,15 @@ span{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    font-family: var(--SecFont);
 
 }
 #about{
     scroll-margin-top: 200px;
 }
-
+#projects{
+    scroll-margin-top: 100px;
+}
 
 
 /*PROJECTS SECTION ********************************* */
@@ -194,7 +197,7 @@ span{
     flex-direction: column;
     width: 100%;
     align-items: center;
-    margin-bottom: 250px;
+
 }
 .project{
     width: 90%;
@@ -211,8 +214,8 @@ span{
     width: 100%;
 }
 .project_info{
-    color: black;
-    background: whitesmoke;
+    color: whitesmoke;
+    background: #afafaf;
     display: flex;
     justify-content: center;
     font-weight: bold;
@@ -229,6 +232,49 @@ span{
     opacity: 0.8;
     border-radius: 50px;
 }
+
+.form_container{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.form_container > h1{
+    margin: 20px;
+}
+form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+input , textarea{
+    font-family: var(--MainFont);
+    padding: 8px 5px ;
+    color: var(--gold-color);
+    background: transparent;
+    margin: 8px 0;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 95%;
+}
+#btnSent{
+    font-family: var(--SecFont);
+    margin: 10px 0;
+    background: transparent;
+    width: 50%;
+    color: var(--foreground);
+    font-size: 2rem;
+    border: 2px solid var(--gold-color);
+    border-radius: 10px;
+}
+textarea{
+    width: 95%;
+    font-size: 1.5rem;
+}
+
 
 
 
