@@ -2,6 +2,10 @@
 
 @media screen and (min-width: 570px )
 {
+
+    body{
+        overflow-x: hidden;
+    }
     .desktop{
         display: flex;
     }
@@ -70,10 +74,26 @@
     }
     .introductie_chalkBoard{
         display: flex;
-        margin: 7% 5%;
+        margin: 3% 5%;
         justify-content: space-between;
         align-items: center;
     }
+    .banner-img{
+        display: flex;
+        position: absolute;
+        right: 0;
+    }
+    .coffee{
+        display: flex;
+        position: absolute;
+        overflow: hidden;
+        right: -200px;
+        bottom: 10px;
+        width: 7%;
+        transition: 2s;
+
+    }
+
 
     .about_container{
         display: flex;
@@ -94,7 +114,7 @@
     }
     .btn_connect:hover{
         cursor: pointer;
-
+        background: goldenrod;
 
     }
     .project_row{

@@ -57,7 +57,18 @@ function ModeSwitch ()
 
      })
  }
+ SlideCoffeeMug();
+function SlideCoffeeMug()
+{
+    let conn = document.getElementById("btn_connect");
+    let coffee = document.querySelector(".coffee");
 
+    conn.addEventListener("click", ()=>
+    {
+        coffee.style.width = "7%";
+        coffee.style.right = "10%";
+    })
+}
 
 
 
