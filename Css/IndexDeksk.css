@@ -27,7 +27,11 @@
         display: flex;
     }
     .list-item{
+        border-bottom: solid 2px transparent;
         margin: 0 10px;
+    }
+    .list-item:hover{
+        border-bottom: 2px solid var(--foreground);
     }
     .list-item a{
         color: var(--foreground);
@@ -38,7 +42,7 @@
     .icon{
 
         margin: 0 10px;
-        width: 5%;
+        width: 4%;
     }
     .dark_light{
         cursor: grab;
