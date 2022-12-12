@@ -48,9 +48,9 @@ function ModeSwitch ()
 
          if (mobileListItems.style.width === "0px")
          {
-             mobileListItems.style.width = "60%"
+             mobileListItems.style.width = "100%"
          }
-         else if (mobileListItems.style.width === "60%")
+         else if (mobileListItems.style.width === "100%")
          {
              mobileListItems.style.width = "0px";
          }
