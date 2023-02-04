@@ -1,42 +1,9 @@
-ModeSwitch();
 MenuToggle();
 function myFunction(x) {
     x.classList.toggle("change");
 }
 
 
-
-
-
-
-
-
-
-
-function ModeSwitch ()
-{
-    let btnToggels = document.querySelectorAll(".dark_light");
-    //let btnToggel = document.getElementById("dark_light");
-
-    for (let i = 0; i < btnToggels.length; i++) {
-        btnToggels[i].addEventListener("click", () =>
-        {
-
-            if(document.body.classList.contains("darkMode"))
-            {
-                btnToggels[i].src = "Images/light.png";
-                document.body.classList.remove("darkMode");
-            }
-            else
-            {
-                btnToggels[i].src = "Images/dark.png";
-                document.body.classList.add("darkMode");
-            }
-
-        })
-    }
-
-}
  function MenuToggle()
  {
      let mobileListItems = document.querySelector(".mobile_list_items");

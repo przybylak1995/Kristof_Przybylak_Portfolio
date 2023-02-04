@@ -44,12 +44,9 @@
         margin: 0 10px;
         width: 4%;
     }
-    .dark_light{
-        cursor: grab;
-        background: none;
-        margin: 0 10px 0 2rem;
-        height: 40px;
-        width: 40px;
+    #profile_img{
+        width: 17%;
+        border-radius: 50%;
     }
 
     .btn_connect :hover{
@@ -106,7 +103,9 @@
     .about_container{
         display: flex;
         justify-content: center;
+        flex-direction: row;
         width: 100%;
+        margin-bottom: 20%;
     }
     #about{
         font-size: 3rem;

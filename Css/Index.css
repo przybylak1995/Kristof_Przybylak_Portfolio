@@ -256,7 +256,6 @@ input , textarea{
     font-family: var(--MainFont);
     padding: 8px 5px ;
     color: var(--gold-color);
-    background: transparent;
     margin: 8px 0;
     font-size: 1.5rem;
     text-align: center;
