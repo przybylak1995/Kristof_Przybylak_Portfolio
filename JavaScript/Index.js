@@ -34,6 +34,8 @@ function SlideCoffeeMug()
     {
         coffee.style.width = "7%";
         coffee.style.right = "10%";
+        setTimeout('window.location = "#contact"',1200)
+
     })
 }
 
