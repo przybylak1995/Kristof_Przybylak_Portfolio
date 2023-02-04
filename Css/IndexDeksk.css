@@ -16,7 +16,7 @@
         padding: 10px 0;
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
     }
     .navbar_container_right{
@@ -28,7 +28,7 @@
     }
     .list-item{
         border-bottom: solid 2px transparent;
-        margin: 0 10px;
+        margin: 0 30px;
     }
     .list-item:hover{
         border-bottom: 2px solid var(--foreground);
@@ -36,7 +36,7 @@
     .list-item a{
         color: var(--foreground);
         font-family: var(--MainFont);
-        font-size: 1.5rem;
+        font-size: 2rem;
 
     }
     .icon{
@@ -78,7 +78,7 @@
     }
     .introductie_chalkBoard{
         display: flex;
-        margin: 3% 5%;
+        margin: 10% 2%;
         justify-content: space-between;
         align-items: center;
     }
@@ -92,10 +92,14 @@
         position: absolute;
         overflow: hidden;
         right: -200px;
-        bottom: 10px;
+        bottom: 150px;
         width: 7%;
         transition: 2s;
 
+    }
+    #chalk_words_img{
+        position: absolute;
+        top: 35%;
     }
 
 

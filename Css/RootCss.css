@@ -5,7 +5,7 @@
 
 }
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 2px;
 
 }
 ::-webkit-scrollbar-thumb {
@@ -15,7 +15,7 @@
 
 
 body{
-    background: var(--background);
+    background-image: var(--backGroundImage);
     color: var(--foreground);
 }
 :root{

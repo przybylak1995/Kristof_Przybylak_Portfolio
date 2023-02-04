@@ -63,11 +63,6 @@ html{
     width: 100% ;
     transition: 0.5s;
 }
-.logo_kp{
-    margin: 0 10px;
-    font-family: 'Calistoga', cursive;
-    color: gold;
-}
 .mobile-list-item{
     margin: 10px 0;
     padding: 10px 20px;
@@ -91,7 +86,7 @@ html{
 /*Introduction Area */
 
 .introduction_container{
-   height: 100vh;
+   height: 70vh;
     padding: 40% 0 0 10px;
 }
 
