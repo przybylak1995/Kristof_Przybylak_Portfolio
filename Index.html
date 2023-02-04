@@ -123,12 +123,12 @@
 
 <div id="contact" class="form_container">
     <h1>Let's connect</h1>
-    <form method="post">
-        <input placeholder="Name" type="text">
-        <input placeholder="Email" type="email">
-        <input placeholder="Subject" type="text">
-        <textarea placeholder="Text"></textarea>
-        <button id="btnSent" >Sent</button>
+    <form name="contact" method="post" data-netlify="true">
+        <input name="name" placeholder="Name" type="text">
+        <input name="email" placeholder="Email" type="email">
+        <input name="subject" placeholder="Subject" type="text">
+        <textarea name="text" placeholder="Text"></textarea>
+        <button type="submit" id="btnSent" >Sent</button>
     </form>
 
 </div>
