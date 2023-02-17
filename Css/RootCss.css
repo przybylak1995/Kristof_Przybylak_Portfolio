@@ -58,3 +58,6 @@ a{
 .row{
     display: flex;
 }
+.project_text{
+    display: none;
+}
