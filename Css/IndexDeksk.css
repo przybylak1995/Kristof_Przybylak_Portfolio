@@ -127,19 +127,49 @@
     .project_row{
         display: flex;
         flex-direction: row;
+        width: 100%;
         justify-content: space-evenly;
     }
     .projects_container{
+        cursor: pointer;
         width: 100%;
 
     }
+    .project_info{
+        display: flex;
+        justify-content: center;
+    }
     .project{
+        display: flex;
+        flex-direction: column;
         width: 40%;
         margin: 1rem;
     }
     .tags_links{
 
     }
+    .info_row{
+        width: 100%;
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .demo{
+        color: black;
+        background: red;
+    }
+    .img_container{
+        height: 380px;
+        background: black;
+        width: 100%;
+    }
+    .project_text{
+        display: none;
+        height: 380px;
+    }
+
+
 
 
     .form_container{

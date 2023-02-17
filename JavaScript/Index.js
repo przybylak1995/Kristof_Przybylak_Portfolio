@@ -38,6 +38,31 @@ function SlideCoffeeMug()
 
     })
 }
+projectsThings()
+function projectsThings()
+{
+    let projectImg = document.querySelectorAll(".project_img");
+    let projectTxt = document.querySelectorAll(".project_text");
+    //let img = document.querySelectorAll(".img_container");
+
+    for (let i = 0; i <projectImg.length; i++) {
+        projectImg[i].addEventListener('click', () =>
+        {
+            projectImg[i].style.display = 'none';
+            projectTxt[i].style.display = "flex"
+        })
+
+
+    }
+    for (let j = 0; j < projectTxt.length; j++) {
+        projectTxt[j].addEventListener("click", ()=>
+        {
+            projectImg[j].style.display = "flex"
+            projectTxt[j].style.display = "none"
+        })
+    }
+
+}
 
 
 
