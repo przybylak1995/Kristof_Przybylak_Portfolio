@@ -228,7 +228,8 @@ span{
     width: 100%;
 }
 .project_text{
-
+    color: red;
+    background: transparent;
     height: 230px;
 }
 .info_row{
