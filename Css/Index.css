@@ -228,8 +228,6 @@ span{
     width: 100%;
 }
 .project_text{
-    color: red;
-    background: transparent;
     height: 230px;
 }
 .info_row{
@@ -250,6 +248,10 @@ span{
     margin: 0 5px;
     opacity: 0.8;
     border-radius: 50px;
+}
+.demo{
+    color: red;
+    background: transparent;
 }
 #profile_img{
     width: 50%;

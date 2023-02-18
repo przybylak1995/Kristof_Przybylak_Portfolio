@@ -159,10 +159,7 @@
         align-items: center;
         justify-content: space-between;
     }
-    .demo{
-        color: red;
-        background: transparent;
-    }
+
 
     .img_container{
         height: 380px;
