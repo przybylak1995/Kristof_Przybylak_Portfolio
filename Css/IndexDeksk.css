@@ -159,21 +159,18 @@
         align-items: center;
         justify-content: space-between;
     }
-
-
     .img_container{
-        height: 380px;
-        background: black;
+        height: 340px;
+        background: transparent;
         width: 100%;
     }
     .project_text{
 
         height: 380px;
     }
-
-
-
-
+    .project_img{
+        height: 340px;
+    }
     .form_container{
         margin-top: 20%;
     }
