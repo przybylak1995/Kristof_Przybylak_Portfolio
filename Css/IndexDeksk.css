@@ -161,7 +161,7 @@
     }
     .img_container{
         height: 340px;
-        background: transparent;
+        background: black;
         width: 100%;
     }
     .project_text{
